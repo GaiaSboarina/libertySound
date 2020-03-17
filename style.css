@@ -158,30 +158,40 @@ button {
 
 .footer {
     display: flex;
+    position: absolute;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    margin-top: 34px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.contenuto_footer {
+    width: 33%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 img {
     height: 15px;
     width: 15px;
-    margin-left: 30%;
     margin-top: 2px;
 }
 
 .home_immagine {
     height: 15px;
     width: 15px;
-    margin-left: 35%;
     margin-top: 2px;
 }
 
 .repository_immagine {
     height: 15px;
     width: 15px;
-    margin-left: 40%;
     margin-top: 2px;
 }
