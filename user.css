@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titolo {
+    color: rgb(54, 153, 239);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.profilo {
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.utente {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.contenuto_utente {
+    width: 80%;
+    background-color: rgb(16, 16, 16);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.utente_dati {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+p {
+    color: white;
+}
+
+button {
+    width: 150px;
+    height: 20px;
+    margin: 7px;
+    border-radius: 10px;
+    background-color: rgb(54, 153, 239);
+    border: rgb(54, 153, 239);
+    color: white;
+}
+
+.h3_classifica {
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.posto1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.posto1 h3 {
+    color: white;
+}
+
+.posto2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.posto2 h3 {
+    color: white;
+}
+
+.posto3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.posto3 h3 {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-top: 40%;
+}
+
+.footer img{
+    height: 15px;
+    width: 15px;
+    margin-left: 30%;
+    margin-top: 2px;
+}
+
+.home_immagine {
+    height: 15px;
+    width: 15px;
+    margin-left: 35%;
+    margin-top: 2px;
+}
+
+.repository_immagine {
+    height: 15px;
+    width: 15px;
+    margin-left: 40%;
+    margin-top: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
